@@ -1,0 +1,51 @@
+//CSCD 205 ASSIGNMENT
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int  iscore;
+	cout<<"Please enter your score\n" ;
+	cin >> iscore;
+	if (iscore>=80)
+	{
+		cout<<"Score is \"A\"\n";
+		
+	}
+	else if (iscore>=75 && iscore<79)
+	{
+		cout<<"Score is \"B+\\n";
+	}
+	else if (iscore>=70 && iscore<74)
+	{
+		cout<<"Score's remarks is \"B \"\n";
+	}
+	else if (iscore>=65 && iscore<69)
+	{
+		cout<<"Score's remarks is \"C+\"\n";
+	}
+	else if (iscore>=60&& iscore<64)
+	{
+		cout<<"Score's remarks is \"C\"\n";
+	}
+	else if (iscore>=55 && iscore<59)
+	{
+		cout<<"Score's remarks is \"D+\"\n";	
+	}
+	else if (iscore>=50 && iscore<54)
+	{
+		cout<<"score's remarks is \"D\"\n";
+	}
+	else if (iscore>=45 && iscore<49)
+	{
+		cout<<"socre's remarks is \"E\"\n";
+	}
+	else 
+	{
+		cout<<"score's remarks is \"F\"\n";
+	}
+	
+	
+
+return 0;
+
+}
